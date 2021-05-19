@@ -1,0 +1,24 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+  <head>
+    <audio id="song" src="sounds/background.mp3" loop="loop"></audio>
+    <audio id="bird-sound" src="sounds/bird-sound.mp3"></audio>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="container" >Tryck på knappen för att börja spelet<button id="knapp" onclick="start()" >start</button></div>
+      <div id="game">
+       <div id="character" onclick="jump();"></div>
+       <div id="score">245px 80px</div>
+      </div>
+  </body>
+</html>
